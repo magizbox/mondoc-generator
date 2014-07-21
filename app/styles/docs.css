@@ -1,0 +1,12 @@
+/*
+ * Added by Brother Rain on July 21, 2014
+ * This style come from underscore css documentation
+ */
+
+pre {
+   font-size: 12px; !important;
+   padding: 2px 0 2px 15px; !important;
+   border-left: 5px solid #bbb; !important;
+   margin: 0px 0 30px; !important;
+}
+
