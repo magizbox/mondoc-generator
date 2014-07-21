@@ -3,7 +3,7 @@
 Help you create documentation for function
 
 ## Requirements
-> grunt
+> [grunt](http://gruntjs.com/installing-grunt)
 
 ## Run
 ```sh
