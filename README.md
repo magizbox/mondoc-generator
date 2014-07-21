@@ -2,6 +2,9 @@
 
 Help you create documentation for function
 
+## Requirements
+> grunt
+
 ## Run
 ```sh
 grunt serve
