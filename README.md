@@ -3,7 +3,9 @@
 Help you create documentation for function
 
 ## Run
-> grunt serve
+```sh
+grunt serve
+```
 
 
 ## Screenshot
