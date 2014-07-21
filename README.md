@@ -1,4 +1,4 @@
-function-documentation-generator
+Function Documentation Generator
 ================================
 
-Function Documentation Generator
+Help you create documentation for function
