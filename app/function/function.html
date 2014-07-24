@@ -1,9 +1,16 @@
 <h1>Function</h1>
 <div class="panel panel-default">
    <div class="panel-head">
-      <a class="pull-right btn btn-default btn-sm" href="#">Copy</a>
+      <a id="copy-button" class="pull-right btn btn-default btn-sm"
+         data-clipboard-text='{{ toJSON(currentFunction) }}'>Copy</a>
    </div>
   <div class="panel-body">
    {{ toJSON(currentFunction) }}
   </div>
 </div>
+<script>
+   var client = new ZeroClipboard( document.getElementById("copy-button") );
+   client.on("ready", function(readyEvent){
+      client.on("aftercopy", function(event){});
+   } );
+</script>
