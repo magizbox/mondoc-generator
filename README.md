@@ -17,7 +17,6 @@ grunt serve
 ## Todo
 - [ ] Class Generator
 - [x] Function Generator
-- 
 
 ## Technology
 ![image](http://isaachunter.ca/include/skills/skill-angular.png)
