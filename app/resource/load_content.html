@@ -1,0 +1,17 @@
+<h1>Load Resource</h1>
+<div class="form-group">
+   <textarea class="form-control" rows="5" ng-change="reloadCurrentResource()" ng-model="resourceInText">
+   </textarea>
+</div>
+<h1>Load URL</h1>
+<div class="container text-center">
+<form class="form-horizontal" role="form">
+   <div class="form-group">
+      <label class="col-sm-3 control-label">URL</label>
+      <div class="col-sm-9">
+         <input type="text" class="form-control" ng-model="urlResource">
+      </div>
+   </div>
+   <button type="submit" class="btn btn-default" ng-click="loadFromURL()">Load form URL</button>
+<form>
+</div>

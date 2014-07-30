@@ -1,0 +1,16 @@
+<h1>Resource</h1>
+<div class="panel panel-default">
+   <div class="panel-head">
+      <a id="copy-resource" class="pull-right btn btn-default btn-sm"
+         data-clipboard-text='{{ toJSON(currentResource) }}'>Copy</a>
+   </div>
+  <div class="panel-body">
+   {{ toJSON(currentResource) }}
+  </div>
+</div>
+<script>
+   var client = new ZeroClipboard( document.getElementById("copy-resource") );
+   client.on("ready", function(readyEvent){
+      client.on("aftercopy", function(event){});
+   } );
+</script>
