@@ -23,6 +23,21 @@ angular.module('docsGeneratorApp')
       $scope.toJSON = function(object){
          return JSON.stringify(object);
       }
+     $scope.getYear = function(){
+        var now = moment($scope.currentResource.date);
+        return now.format("YYYY");
+     }
+     $scope.getTimeInCiteFormat = function(){
+        var now = moment($scope.currentResource.date);
+        console.log($scope.currentResource.date);
+        return now.format("Do MMM. YYYY");
+     }
+     var currentDate = Date().toString(); 
+     $scope.currentResource = {"author": "rain", title : "Awesome Resource", "date": currentDate, "url": "http://google.com" } 
+      $scope.toJSON = function(object){
+         return JSON.stringify(object);
+      }
+      
       $scope.resourceInText = '{"name": "load function..."}';
       $scope.reloadCurrentResource = function(){
          try{
@@ -32,6 +47,8 @@ angular.module('docsGeneratorApp')
             console.log(e);
          };
       }
+      
+      $scope.functionInText = '{"name": "kaka"}';
       $scope.reloadCurrentFunction = function(){
          try{
             var parsedObject = JSON.parse(this.functionInText);
