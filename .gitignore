@@ -1,2 +1,4 @@
 .tmp
 .sass-cache
+.c9
+.gitignore
