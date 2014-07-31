@@ -1,0 +1,15 @@
+--2014-07-31 04:22:48--  https://mondoc-generator-c9-chikiru900.c9.io/app/favicon.ico
+Resolving mondoc-generator-c9-chikiru900.c9.io (mondoc-generator-c9-chikiru900.c9.io)... 107.167.179.167
+Connecting to mondoc-generator-c9-chikiru900.c9.io (mondoc-generator-c9-chikiru900.c9.io)|107.167.179.167|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 223379 (218K) [image/x-icon]
+Saving to: 'favicon.ico.1'
+
+     0K .......... .......... .......... .......... .......... 22%  114K 1s
+    50K .......... .......... .......... .......... .......... 45%  228K 1s
+   100K .......... .......... .......... .......... .......... 68% 4.62M 0s
+   150K .......... .......... .......... .......... .......... 91%  249K 0s
+   200K .......... ........                                   100% 2.04M=0.9s
+
+2014-07-31 04:22:50 (248 KB/s) - 'favicon.ico.1' saved [223379/223379]
+
