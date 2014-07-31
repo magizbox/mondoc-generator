@@ -4,9 +4,9 @@
       <a id="copy-button" class="pull-right btn btn-default btn-sm"
          data-clipboard-text='{{ toJSON(currentFunction) }}'>Copy</a>
    </div>
-  <div class="panel-body">
-   {{ toJSON(currentFunction) }}
-  </div>
+<pre class="panel-body">
+{{ toJSON(currentFunction) }}
+</pre>
 </div>
 <script>
    var client = new ZeroClipboard( document.getElementById("copy-button") );

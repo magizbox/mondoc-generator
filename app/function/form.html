@@ -1,5 +1,5 @@
 <h1>Form</h1>
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" id="function-from" role="form">
    <div class="form-group">
       <label class="col-sm-3 control-label">Name</label>
       <div class="col-sm-9">
@@ -15,7 +15,7 @@
    <div class="form-group">
       <label class="col-sm-3 control-label">Description</label>
       <div class="col-sm-9">
-         <textarea class="form-control" ng-model="currentFunction.description" rows="5">
+         <textarea class="form-control" id="description" ng-trim="false" ng-model="currentFunction.description" rows="5">
          </textarea>
       </div>
    </div>
