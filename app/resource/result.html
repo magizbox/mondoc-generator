@@ -1,2 +1,2 @@
 <h1>Result</h1>
-{{ currentResource.author }}, ({{ getYear() }}). <i>{{ currentResource.title }}</i>. Available at <a target="_blank" href="{{ currentResource.url }}">{{ currentResource.url }}</a> [Accessed {{ getTimeInCiteFormat() }}].
+{{ currentResource.author }}, ({{ getYear(currentResource.time) }}). <i>{{ currentResource.title }}</i>. Available at <a target="_blank" href="{{ currentResource.url }}">{{ currentResource.url }}</a> [Accessed {{ getDate(currentResource.time) }}].
