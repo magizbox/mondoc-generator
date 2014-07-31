@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-Function Documentation Generator
+Mondoc Generator
 ================================
 
 Help you create documentation for function
 =======
-# Function Documentation Generator
-
-Help you create documentation for function
 
 ## Requirements
 > [grunt](http://gruntjs.com/installing-grunt)
@@ -26,4 +22,3 @@ grunt serve
 
 ## Technology
 ![image](http://isaachunter.ca/include/skills/skill-angular.png)
->>>>>>> 4ac1921fb235734ce7a888231a3c12ebe12b4c07
