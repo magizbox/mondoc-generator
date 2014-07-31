@@ -1,26 +1,17 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-     <!-- 
-    <li><a ng-href="#">Class</a></li>
-    -->
-    <li class="active"><a ng-href="#">Function</a></li>
-  </ul>
-  <h3 class="text-muted">Monster Documentation Generator</h3>
-</div>
-
+<ng-include src="'function/menu.html'"></ng-include>
 <div class="container">
    <div class="row">
       <div class="col-xs-6">
          <ng-include src="'function/form.html'"></ng-include>
       </div>
       <div class="col-xs-6">
-         <ng-include src="'function/help.html'"></ng-include>
+         <ng-include src="'function/result.html'"></ng-include>
       </div>
    </div>
    <div class="row">
-      <ng-include src="'function/function.html'"></ng-include>
+      <ng-include src="'function/content.html'"></ng-include>
    </div>
    <div class="row">
-      <ng-include src="'function/load_function.html'"></ng-include>
+      <ng-include src="'function/load_content.html'"></ng-include>
    </div>
 </div>
